@@ -1,3 +1,5 @@
+package ch01;
+
 public class Hi { // 여기서 Hi는 식별자? 식별자가 무슨 뜻인지 주의사항은 무엇인지 확인하기
     public static int sum(int x, int y) {// void가 아니고 int(즉, 타입)로 줬으면 return값을 줘야 에러가 없어진다? // 여기에 void가 있으면 return이 없어도 된다. (텅 빈)
                         // 변수 x 앞에는 무조건 타입 int가 필요하다. => 변수 앞에는 무조건 타입 필요!

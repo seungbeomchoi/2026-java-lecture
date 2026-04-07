@@ -1,3 +1,5 @@
+package ch01;
+
 public class CircleArea {
     static double circleArea(double radius) { // 이 함수를 실행을 하면 double을 반드시 return을 해야 한다.
         // double을 리턴하기 싫으면 void로 주면 된다. 즉, 리턴 값이 없을 땐 void

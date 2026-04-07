@@ -1,3 +1,5 @@
+package ch01;
+
 public class TypeTest {
     static void main() {
         // 자바의 타입은 기본 타입 8개가 있다.(원래 7개인데 특별한 게 하나 더 있음)
@@ -8,7 +10,7 @@ public class TypeTest {
         int num = 19098998; // 32bit 정수. 2의 32승 / 자릿수를 끊을 때 언더 스코어를 사용할 수 있다 => ex.1990_0032 이런 식으로.
         long long_num = 1000000000L; // 끝에 대문자 or 소문자 "L"을 붙여야 long로 인식하고 사용 가능. 숫자가 커지면 꼭 L을 붙여야 함. => why? 이유 알아볼 것. 2의 64승
         // L이 붙어 있지 않으면 int로 인식한다.
-        float num_float = 0.2f; // 소수. 자바는 소수에 아무것도 안 붙이면 double로 인식함. 그래서 "F"를 꼭 붙여줘야 함.
+        float num_float = 0.2f; // 소수. 자바는 소수에 아무것도 안 붙이면 double로 인식함. 그래서 "F"를 꼭 붙여줘야 함. => 거의 쓸 일 없음.
         double num_double = 0.2; // 0.2d 이렇게도 쓸 수 있는데 double는 d 생략이 가능.
         // boolean, byte, int, double => 이렇게 가장 많이 사용함.
         // 위에서 "="는 대입 연산자. 오른쪽에 있는 값을 왼 쪽에 대입하라는 소리다.
@@ -26,7 +28,7 @@ public class TypeTest {
 
         System.out.println(ch03);
 
-        String str = "장성호";
+        String str = "장성호"; // 문자열
         String strNull = null; // 이건 null 리터럴이라고 한다. 아무 것도 없는 값? 즉, 텅 빈 값? => 이게 어떤 뜻인지, 왜 그리고 언제 쓰이는지 알아볼 것.
         var myVar = 'a'; // var은 변수를 영어로 var이라고 하는데(벨류어블?) 타입을 따로 지정하지 않아도 된다. 즉, 뭐가 들어올지 모르니까 자바가 추론을 하려면 값이 있어야 함.
         // var myVar;은 오류인데 double num_double;는 가능.
